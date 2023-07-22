@@ -78,3 +78,23 @@ th:hover {
     font-size: 18px;
     cursor: pointer;
 }
+
+@media  only screen and (max-width: 630px) {
+    table {
+        width: 450px;
+        height: 450px;
+    }
+  }
+
+  @media  only screen and (max-width: 485px) {
+    table {
+        width: 400px;
+        height: 400px;
+    }
+  }
+  @media  only screen and (max-width: 430px) {
+    table {
+        width: 300px;
+        height: 300px;
+    }
+  }
